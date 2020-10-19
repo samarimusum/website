@@ -19,7 +19,19 @@
 		<script src="js/ie-support/html5.js"></script>
 		<script src="js/ie-support/respond.js"></script>
 		<![endif]-->
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c3ac76e2-4c1a-428a-9482-4a61f21addde",
+      notifyButton: {
+        enable: true,
+      },
+      subdomainName: "samarimausum",
+    });
+  });
+</script>
 		
 	</head>
 
